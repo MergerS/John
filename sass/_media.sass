@@ -7,6 +7,30 @@
     align-items: center
     text-align: center
     padding-top: 30px
+  .posts
+    &__wrapper
+      width: 95%
+    &__block1
+      width: 454px
+      height: 316px
+    &__block
+      width: 454px
+      height: 316px
+      margin-right: 20px
+      &--item
+        padding: 12px 8px 22px 19px
+      &--title
+        font-size: 22px
+        line-height: 30px
+        padding-bottom: 12px
+      &--crumb
+        padding-bottom: 19px
+      &--date
+        font-size: 16px
+        line-height: 24px
+      &--what
+        font-size: 16px
+        line-height: 24px
 @media ( max-width:576px)
   .container
     width: 60%
@@ -29,3 +53,20 @@
     &__photo
       height: 170px
       width: 170px
+  .posts
+    &__title
+      justify-content: center
+      &--link
+        display: none
+    &__item
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+    &__block
+      width: 354px
+      height: 266px
+      margin-bottom: 17px
+      margin-right: 0
+    &__block1
+      width: 354px
+      height: 266px
