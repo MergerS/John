@@ -1,4 +1,7 @@
 @media ( max-width:990px)
+  .works
+    &__wrapper
+      width: 90%
 @media (max-width:768px)
   .container
     width: 80%
@@ -29,6 +32,21 @@
         font-size: 16px
         line-height: 24px
       &--what
+        font-size: 16px
+        line-height: 24px
+  .works
+    &__wrapper
+      width: 90%
+    &__item
+      &--title
+        font-size: 24px
+        line-height: 30px
+      &--description
+        padding-right: 0
+      &--when
+        font-size: 16px
+        line-height: 60px
+      &--how
         font-size: 16px
         line-height: 24px
 @media ( max-width:576px)
@@ -70,3 +88,26 @@
     &__block1
       width: 354px
       height: 266px
+  .works
+    &__title
+      display: flex
+      justify-content: center
+      padding-bottom: 2px
+      padding-top: 3px
+    &__item
+      &--image
+        height: 100%
+        width: 100%
+        margin-bottom: 17px
+      &--description
+        padding-left: 0
+      &--block
+        flex-direction: column
+      &--block1
+        display: none
+      &--line
+        margin-bottom: 150px
+      &--line1
+        display: none
+      &--how
+        padding-left: 22px
