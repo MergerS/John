@@ -622,7 +622,7 @@ template {
     padding-top: 30px;
   }
   .posts__wrapper {
-    width: 95%;
+    width: 80%;
   }
   .posts__block1 {
     width: 454px;
@@ -726,6 +726,9 @@ template {
   .posts__block1 {
     width: 354px;
     height: 266px;
+  }
+  .works__wrapper {
+    width: 70%;
   }
   .works__title {
     display: -webkit-box;
