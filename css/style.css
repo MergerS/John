@@ -601,6 +601,33 @@ template {
   margin-bottom: 31px;
 }
 
+.footer {
+  padding-bottom: 54px;
+}
+.footer__ul {
+  margin: 0;
+  padding: 100px 0 26px 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer__icon {
+  padding: 0 17px;
+}
+.footer__text {
+  text-align: center;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243D;
+}
+
 @media (max-width: 990px) {
   .works__wrapper {
     width: 90%;
@@ -669,6 +696,9 @@ template {
   .works__item--how {
     font-size: 16px;
     line-height: 24px;
+  }
+  .footer__ul {
+    padding: 0;
   }
 }
 @media (max-width: 576px) {
