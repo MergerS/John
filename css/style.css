@@ -628,6 +628,77 @@ template {
   color: #21243D;
 }
 
+.blog {
+  max-width: 682px;
+  margin: auto;
+}
+.blog__title {
+  padding-top: 106px;
+  padding-bottom: 55px;
+}
+.blog__title--text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+.blog__block {
+  padding-bottom: 30px;
+}
+.blog__block--title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+}
+.blog__block--description {
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.blog__block--date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+}
+.blog__block--line {
+  display: block;
+  height: 21px;
+  border: 1px solid #000000;
+  margin: 0 20px;
+}
+.blog__block--what {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+.blog__block--text {
+  margin: 0;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+.blog__block--endline {
+  display: block;
+  width: 100%;
+  border: 1px solid #E0E0E0;
+}
+
 @media (max-width: 990px) {
   .works__wrapper {
     width: 90%;
@@ -699,6 +770,9 @@ template {
   }
   .footer__ul {
     padding: 0;
+  }
+  .blog {
+    width: 80%;
   }
 }
 @media (max-width: 576px) {
@@ -795,5 +869,32 @@ template {
   }
   .works__item--how {
     padding-left: 22px;
+  }
+  .blog__item {
+    padding-bottom: 57px;
+  }
+  .blog__title {
+    padding-top: 24px;
+    padding-bottom: 18px;
+  }
+  .blog__block {
+    padding-bottom: 18px;
+  }
+  .blog__block--description {
+    padding: 5px 0 17px 0;
+  }
+  .blog__block--text {
+    padding-bottom: 24px;
+  }
+  .blog__block--date {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .blog__block--line {
+    margin: 0 15px;
+  }
+  .blog__block--what {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
