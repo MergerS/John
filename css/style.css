@@ -723,6 +723,86 @@ template {
   border: 1px solid #E0E0E0;
 }
 
+.work {
+  max-width: 681px;
+  margin: auto;
+}
+.work__title {
+  width: 70%;
+  padding-top: 78px;
+  padding-bottom: 30px;
+}
+.work__title--text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  color: #21243D;
+}
+.work__description {
+  padding-bottom: 23px;
+}
+.work__description--date {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  color: #FFFFFF;
+  background: #FF7C7C;
+  border-radius: 16px;
+  padding: 0 10px;
+}
+.work__description--what {
+  padding-left: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+}
+.work__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 46px;
+}
+.work__text2 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.work__texts {
+  padding-top: 34px;
+  padding-bottom: 16px;
+}
+.work__texts--text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+  color: #21243D;
+}
+.work__texts--stext {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+  color: #21243D;
+}
+.work__img2 {
+  padding-top: 27px;
+}
+
 @media (max-width: 990px) {
   .works__wrapper {
     width: 90%;
