@@ -7,6 +7,10 @@ body {
   font-family: "Heebo", sans-serif;
 }
 
+img {
+  width: 100%;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -744,6 +748,7 @@ template {
   padding-bottom: 23px;
 }
 .work__description--date {
+  margin: 0 0 17px 0;
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
@@ -754,7 +759,7 @@ template {
   padding: 0 10px;
 }
 .work__description--what {
-  padding-left: 17px;
+  margin: 0 0 0 17px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -877,10 +882,31 @@ template {
     line-height: 60px;
   }
   .footer__ul {
-    padding: 0;
+    padding: 81px 0 0 0;
   }
   .blog {
     width: 80%;
+  }
+  .work {
+    width: 80%;
+  }
+  .work__title {
+    width: 80%;
+    padding: 32px 0 24px 0;
+  }
+  .work__title--text {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .work__description--what {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .work__text {
+    padding-bottom: 23px;
+  }
+  .work__texts {
+    padding-top: 23px;
   }
 }
 @media (max-width: 576px) {
